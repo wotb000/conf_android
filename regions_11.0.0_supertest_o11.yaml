@@ -115,6 +115,33 @@ Regions:
         layoutPosition:
             x: 0.3
             y: 0.3
+    CNGV:
+        realm: "cn"
+        flag: "cn"
+        news: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/rss/news/"
+        popupNews: "https://wbp-cngv.plt.ms1shanghai.cn/zh-cn/api/cms/promo/"
+        wotBlitzPortal: "https://wbp-cngv.wotblitz.asia"
+        wgnwn: "https://cngv.plt.ms1shanghai.cn"
+        clientId: "IkHLXmY97hL0fZwxKFQkkCpH5skz0vw8WvOxsnrr"
+        netEaseHostId: 3
+        hosts:
+            CNGV:
+                url: "wotblitzcngv.login.wargaming.net:20017"
+                forceTcpConnection: true
+        tmsPublicApi: "https://tmsis-cngv.plt.ms1shanghai.cn"
+        isGGMAllowed: true
+        ggmGameTitle: "wotbcngv"
+        ggmCredits:
+            tokenUrl: "https://auth.gamegridscn.com/"
+            payUrl: "https://pay.gamegridscn.com/"
+            frontierUrl: "https://api.gamegridscn.com/"
+            client_id: "wotb"
+            client_secret: "secret"
+        battlePassOffersStorage: "https://ma67.gdl.netease.com/bp_offers/"
+        isVisibleOnMap : true
+        layoutPosition:
+            x: 0.35
+            y: 0.38
 ClanEmblems:
     DefaultEmblem:
         Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10001.png"
